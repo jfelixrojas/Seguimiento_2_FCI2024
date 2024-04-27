@@ -4,9 +4,16 @@ Entrega del seguimiento 2, fisica computacional
 Desarrollado por: 
 Mario José Félix Rojas - Sebastian Gaviria
 1. Plantemiento del problema:
-Se tienen dos especies, una de tipo A y otra de tipo B,
+Se tienen dos especies, una de tipo A y otra de tipo B, dentro de las cuales podemos tener funciones de asignación:
+$X_{ij} \in \left{0,1,2}\right$
+Con las siguientes condiciones de supervivencia, muerte y nacimiento:
 
-
+    * Supervivencia:
+        $X_{ij} == 1,2$ y $2<= N_v^{A,B}<=3 y $N_v^{B,A} \leq 2$, entonces $X_{ij} = 1,2$
+    * Muerte: 
+        $X_{ij} == 1,2$ y $N_v^{A,B} >3$ o $N_v^{A,B} <2$ o $N_v^{B,A}>2$, entonces $X_{ij}=0$
+    * Nacimiento:
+        $X_{ij}==0 y $N_v^{A,B}==3$ y $N_v^{B,A}<=2$, entonces $X_{ij}=1,2$
 2. Modificación del problema:
 
     * Implementación del juego de la vida con dos especies 
