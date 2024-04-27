@@ -9,7 +9,7 @@ $X_{ij} \in {0,1,2}$
 Con las siguientes condiciones de supervivencia, muerte y nacimiento:
 
     * Supervivencia:
-        $X_{ij} == 1,2$ y $2<= N_v^{A,B}<=3 y $N_v^{B,A} \leq 2$, entonces $X_{ij} = 1,2$
+        $X_{ij} == 1,2$ y $2<= N_v^{A,B}<=3$ y $N_v^{B,A} \leq 2$, entonces $X_{ij} = 1,2$
     * Muerte: 
         $X_{ij} == 1,2$ y $N_v^{A,B} >3$ o $N_v^{A,B} <2$ o $N_v^{B,A}>2$, entonces $X_{ij}=0$
     * Nacimiento:
