@@ -13,7 +13,7 @@ Con las siguientes condiciones de supervivencia, muerte y nacimiento:
     * Muerte: 
         $X_{ij} == 1,2$ y $N_v^{A,B} >3$ o $N_v^{A,B} <2$ o $N_v^{B,A}>2$, entonces $X_{ij}=0$
     * Nacimiento:
-        $X_{ij}==0 y $N_v^{A,B}==3$ y $N_v^{B,A}<=2$, entonces $X_{ij}=1,2$
+        $X_{ij}==0$ y $N_v^{A,B}==3$ y $N_v^{B,A}<=2$, entonces $X_{ij}=1,2$
 2. Modificación del problema:
 
     * Implementación del juego de la vida con dos especies 
