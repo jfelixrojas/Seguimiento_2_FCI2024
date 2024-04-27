@@ -2,7 +2,7 @@
 Entrega del seguimiento 2, fisica computacional
 
 Desarrollado por: 
-Mario José Félix Rojas
+Mario José Félix Rojas - Sebastian Gaviria
 1. Plantemiento del problema:
 Se tienen dos especies, una de tipo A y otra de tipo B,
 
