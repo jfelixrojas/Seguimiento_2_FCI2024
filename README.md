@@ -5,7 +5,7 @@ Desarrollado por:
 Mario José Félix Rojas - Sebastian Gaviria
 1. Plantemiento del problema:
 Se tienen dos especies, una de tipo A y otra de tipo B, dentro de las cuales podemos tener funciones de asignación:
-$X_{ij} \in \left{0,1,2}\right$
+$X_{ij} \in {0,1,2}\right$
 Con las siguientes condiciones de supervivencia, muerte y nacimiento:
 
     * Supervivencia:
