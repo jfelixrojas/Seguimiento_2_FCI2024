@@ -2,7 +2,7 @@
 Entrega del seguimiento 2, fisica computacional
 
 Desarrollado por: 
-Mario José Félix Rojas - Sebastian Gaviria
+Mario José Félix Rojas - Sebastian Gaviria- Jose Luis Torres
 1. Plantemiento del problema:
 Se tienen dos especies, una de tipo A y otra de tipo B, dentro de las cuales podemos tener funciones de asignación:
 $X_{ij} \in {0,1,2}$
